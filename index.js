@@ -238,10 +238,13 @@ console.log("-------------------------------Loop  For all car display car  sale 
 
 /* WRITE YOUR ANSWER HERE */
 
-for(i = 0 ; i <= carsForSaleArray.length; i++){
-    console.log("all Cars Availbale are :- " + carsForSaleArray[i])
-}
+let Allcars = carsForSaleArray
 
-/* WHEN YOU ARE FINISHED
- Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
-*/
+ for (let i = 0; i < Allcars.length; i++) {
+     
+     console.log(`car at index ${i} is ${Allcars}`)
+ }
+
+
+
+
