@@ -238,7 +238,7 @@ console.log("-------------------------------Loop  For all car display car  sale 
 
 /* WRITE YOUR ANSWER HERE */
 
-for(i = 0;i <= carsForSaleArray.length; i++){
+for(i = 0 ; i <= carsForSaleArray.length; i++){
     console.log("all Cars Availbale are :- " + carsForSaleArray[i])
 }
 
